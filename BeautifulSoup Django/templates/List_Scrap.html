@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Beautiful Soup</title>
+</head>
+<body>
+    <div class="container mt-3">
+      <hr>
+      {% for data in queryset %}
+      <div class="list-group mb-3">
+       Name:  <a href="#" class="list-group-item list-group-item-action">{{data.job_title}}</a>
+       Company:  <a href="#" class="list-group-item list-group-item-action">{{data.company}}</a>
+        Location: <a href="#" class="list-group-item list-group-item-action"> {{data.loc}}</a>
+      </div>
+      {% endfor %}
+      <hr>  
+    </div>
+</body>
+</html>

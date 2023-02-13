@@ -1,0 +1,4 @@
+Django==2.2
+psycopg2-binary>2.9
+pip==21.3.1
+
